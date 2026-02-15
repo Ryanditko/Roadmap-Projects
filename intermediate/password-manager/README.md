@@ -1,5 +1,9 @@
 # Password Manager
 
+<p align="center">
+  <img src="https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=600&q=80" alt="Password Manager" width="600">
+</p>
+
 **Level:** Intermediate | **Time:** 1-2 weeks
 
 ## Description

@@ -1,5 +1,9 @@
 # Quiz Platform
 
+<p align="center">
+  <img src="https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?w=600&q=80" alt="Quiz Platform" width="600">
+</p>
+
 **Level:** Intermediate | **Time:** 1 week
 
 ## Description

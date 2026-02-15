@@ -1,5 +1,9 @@
 # PDF Report Generator
 
+<p align="center">
+  <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&q=80" alt="PDF Report Generator" width="600">
+</p>
+
 **Level:** Intermediate | **Time:** 1 week
 
 ## Description
