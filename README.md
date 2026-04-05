@@ -1,6 +1,6 @@
-![Roadmap Projects Banner](./projects/images/banner-main.png)
-
 # Roadmap Projects
+
+![Roadmap Projects Banner](./projects/images/banner-main.png)
 
 A comprehensive learning resource featuring 180 curated project ideas organized across six technology domains. This repository is designed to help developers of all levels structure their learning journey through hands-on practice.
 
