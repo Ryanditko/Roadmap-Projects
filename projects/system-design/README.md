@@ -1,28 +1,35 @@
 ![System Design Projects Banner](../images/banner-system-design.png)
 
+> 🌐 **English** · [Português](./README.pt-BR.md)
+
 # System Design Projects
 
-Design large-scale distributed systems. System design projects focus on scalability, reliability, performance, and architectural patterns that power real-world applications at scale.
+Design large-scale distributed systems: scalability, reliability, and the
+architectural trade-offs behind real products. These are guided exercises —
+you get the *what* and the *why*, then you produce the design and reasoning.
+
+> Every project has both an English (`README.md`) and a Portuguese
+> (`README.pt-BR.md`) brief.
+
+## What You'll Build
+
+- Component designs for URL shorteners, chat, and rate limiters
+- Architectures for e-commerce, streaming, and social feeds
+- Blueprints for planet-scale systems (Netflix, Uber, WhatsApp)
+- Distributed databases and global load balancers
+- Reasoned trade-off documents, not just diagrams
 
 ## What You'll Learn
 
-System design encompasses:
-- **Scalability**: Handling growth in users and data
-- **Load Balancing**: Distributing traffic efficiently
-- **Caching**: Improving performance with strategic caching
-- **Databases**: SQL vs NoSQL, replication, sharding
-- **Messaging Queues**: Asynchronous communication
-- **Microservices**: Breaking monoliths into services
-- **Consistency Models**: CAP theorem, ACID, eventual consistency
-- **APIs**: RESTful and RPC-style architectures
-- **Security**: Authentication, authorization, encryption
-- **Monitoring**: Observability at scale
-
----
+- **Scalability**: horizontal scaling, sharding, partitioning
+- **Consistency**: CAP theorem, ACID vs. BASE, replication
+- **Caching**: strategies, invalidation, distributed caches
+- **Communication**: sync vs. async, queues, pub/sub
+- **Trade-offs**: reasoning about failure, latency, and cost
 
 ## Beginner Projects (10 Projects)
 
-Start with foundational system design concepts through focused problems.
+Foundational system design concepts through focused problems.
 
 | # | Project | Description |
 |---|---------|-------------|
@@ -37,11 +44,9 @@ Start with foundational system design concepts through focused problems.
 | 9 | [Design Logging System](./beginner/09-logging-system/) | Build infrastructure for application logging |
 | 10 | [Design Metrics System](./beginner/10-metrics-system/) | Create systems for collecting and aggregating metrics |
 
----
-
 ## Intermediate Projects (10 Projects)
 
-Integrate multiple concepts and work with real-world design patterns.
+Multiple concepts combined into real-world design patterns.
 
 | # | Project | Description |
 |---|---------|-------------|
@@ -56,11 +61,9 @@ Integrate multiple concepts and work with real-world design patterns.
 | 9 | [Design Analytics System](./intermediate/09-analytics-system/) | Infrastructure for data collection and analysis |
 | 10 | [Design CDN](./intermediate/10-cdn/) | Content delivery network for global distribution |
 
----
-
 ## Advanced Projects (10 Projects)
 
-Design and architect systems handling global scale with enterprise considerations.
+Architect systems handling global scale with enterprise-grade concerns.
 
 | # | Project | Description |
 |---|---------|-------------|
@@ -75,151 +78,40 @@ Design and architect systems handling global scale with enterprise consideration
 | 9 | [Design High-Frequency Trading System](./advanced/09-hft-system/) | Ultra-low latency trading infrastructure |
 | 10 | [Design Multi-Region Architecture](./advanced/10-multi-region-architecture/) | System design for global fault tolerance |
 
----
-
 ## Learning Path
 
-### Timeline & Progression
+- **Beginner (3–4 weeks)**: core vocabulary, single-server limits, fundamental
+  components (databases, caching), basic trade-offs.
+- **Intermediate (6–8 weeks)**: medium-scale systems, microservices,
+  consistency models, real-world architectures.
+- **Advanced (2–3 months)**: planet-scale design, complex trade-offs, novel
+  problems without templates.
 
-**Beginner Phase**: 3-4 weeks
-- Learn basic system design vocabulary
-- Understand trade-offs (scalability vs consistency)
-- Study single-server limitations
-- Master fundamental components (databases, caching)
+Start simple, then iterate — always state your assumptions and trade-offs.
 
-**Intermediate Phase**: 6-8 weeks
-- Design medium-scale systems (millions of users/requests)
-- Learn microservices architecture
-- Understand data consistency models
-- Study real-world systems from companies
+## Key Concepts
 
-**Advanced Phase**: 2-3 months
-- Design systems at planetary scale
-- Handle complex trade-offs
-- Learn from industry leaders' architectures
-- Solve novel problems without templates
-
-### Key System Design Components
-
-#### Databases
-- **SQL**: ACID properties, normalized schemas
-- **NoSQL**: Document stores, key-value, wide columns
-- **Replication**: Master-slave, master-master
-- **Sharding**: Horizontal partitioning strategies
-- **Indexing**: Query optimization techniques
-
-#### Caching
-- **In-Memory**: Redis, Memcached
-- **Cache Invalidation**: TTL, LRU, event-based
-- **Cache Patterns**: Write-through, write-back, write-around
-- **Distributed Caching**: Multi-node consistency
-
-#### Communication
-- **Synchronous**: REST, gRPC, WebSockets
-- **Asynchronous**: Message queues, pub-sub, event streaming
-- **Protocols**: HTTP, TCP, UDP
-- **Service Discovery**: Finding available services
-
-#### Scalability Patterns
-- **Load Balancing**: Round-robin, least-connections, consistent hashing
-- **Database Scaling**: Read replicas, sharding, federated databases
-- **Service Scaling**: Horizontal scaling, auto-scaling
-- **API Scaling**: Rate limiting, caching, compression
-
-### Recommended Learning Resources
-
-#### Concept Deep Dives
-1. **Databases**
-   - SQL vs NoSQL trade-offs
-   - ACID vs BASE consistency
-   - Replication and sharding strategies
-
-2. **Caching**
-   - Cache invalidation patterns
-   - Distributed cache challenges
-   - Cache warming strategies
-
-3. **Load Balancing**
-   - Algorithm selection
-   - Sticky sessions vs stateless
-   - Geographic distribution
-
-4. **Messaging**
-   - At-least-once vs exactly-once delivery
-   - Message ordering guarantees
-   - Dead letter queues
-
----
-
-## Tips for Success
-
-1. **Understand the Problem First**: Ask clarifying questions before designing
-2. **Start Simple**: Begin with a basic design, then iterate
-3. **Know Your Trade-Offs**: Every choice has pros and cons
-4. **Learn from the Real World**: Study how companies like Netflix, Google, Amazon design systems
-5. **Think About Failure**: Design for unavoidable failures
-6. **Use Standardized Patterns**: Don't reinvent the wheel
-7. **Get Feedback**: Discuss your design with others
-8. **Practice Regularly**: System design is a skill that improves with practice
-
----
-
-## Common Mistakes to Avoid
-
-- Over-designing for scale before validating demand
-- Ignoring single points of failure
-- Not considering network reliability
-- Underestimating consistency requirements
-- Premature optimization of the wrong bottleneck
-- Designing without understanding constraints
-- Choosing technologies without trade-off analysis
-- Forgetting about operational complexity
-
----
+1. **Scaling** — horizontal vs. vertical, auto-scaling
+2. **Databases** — SQL vs. NoSQL, replication, sharding
+3. **Caching** — patterns and invalidation strategies
+4. **Load balancing** — algorithms, sticky vs. stateless
+5. **Consistency** — CAP theorem, eventual consistency
+6. **Messaging** — delivery guarantees, ordering, DLQs
+7. **Resilience** — single points of failure, failover
 
 ## Resources
 
 - [System Design Primer](https://github.com/donnemartin/system-design-primer)
-- [Designing Data-Intensive Applications (Book)](https://dataintensive.io/)
+- [Designing Data-Intensive Applications](https://dataintensive.io/)
 - [High Scalability Blog](http://highscalability.com/)
 - [Papers We Love](https://paperswelove.org/)
-- [Grokking System Design Interview](https://www.educative.io/courses/grokking-the-system-design-interview)
-- [System Design Interview Course](https://www.youtube.com/playlist?list=PLjQV3hketV2aSqfsJQSac_NycAyxmHTe)
-
----
-
-## Real-World System Studies
-
-- How Netflix handles billions of streams
-- How WhatsApp manages message delivery
-- How YouTube processes video uploads
-- How Amazon scales e-commerce
-- How Google's search infrastructure works
-- How Uber matches riders and drivers
-- How Discord maintains low latency at scale
-
----
-
-## Key Concepts Checklist
-
-- Understand horizontal vs vertical scaling
-- Know when to use SQL vs NoSQL
-- Understand CAP theorem
-- Know common load balancing algorithms
-- Understand database replication
-- Know cache invalidation strategies
-- Understand eventual consistency
-- Know microservices communication patterns
-
----
+- [Software Design & Architecture Roadmap](https://roadmap.sh/software-design-architecture)
 
 ## Next Steps
 
-1. Read "Designing Data-Intensive Applications" foundations
-2. Choose a beginner project and work through it
-3. Draw architecture diagrams for your designs
-4. Present to others and get feedback
-5. Study real company architectures online
-6. Progress to intermediate projects
+1. Read the foundations of "Designing Data-Intensive Applications".
+2. Pick a beginner project and read its brief end to end.
+3. Draw architecture diagrams and document your trade-offs.
+4. Present your design for feedback, then attempt the stretch goals.
 
-**Ready to architect at scale? Pick a project and start thinking about complex systems!**
+**Pick a project and start architecting at scale.**

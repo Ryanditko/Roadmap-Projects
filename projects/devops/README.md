@@ -1,27 +1,35 @@
 ![DevOps Projects Banner](../images/banner-devops.png)
 
+> 🌐 **English** · [Português](./README.pt-BR.md)
+
 # DevOps Projects
 
-Automate deployments, manage infrastructure, and ensure system reliability. DevOps projects focus on CI/CD pipelines, containerization, orchestration, monitoring, and infrastructure automation.
+Automate delivery and keep systems reliable: CI/CD pipelines, containers,
+orchestration, infrastructure as code, and observability. These are guided
+exercises — you get the *what* and the *why*, then you write the code.
+
+> Every project has both an English (`README.md`) and a Portuguese
+> (`README.pt-BR.md`) brief.
+
+## What You'll Build
+
+- Dockerized apps and CI pipelines
+- Kubernetes deployments and Terraform infrastructure
+- Centralized logging and Prometheus/Grafana monitoring
+- Blue-green, GitOps, and zero-downtime deployment systems
+- Service meshes, chaos experiments, and internal platforms
 
 ## What You'll Learn
 
-DevOps encompasses:
-- **Version Control**: Git workflows and collaboration
-- **CI/CD Pipelines**: Automated testing and deployment
-- **Containerization**: Docker and application packaging
-- **Orchestration**: Kubernetes and container management
-- **Infrastructure as Code**: Automating infrastructure provisioning
-- **Monitoring & Observability**: Logs, metrics, and alerting
-- **Cloud Platforms**: AWS, GCP, Azure fundamentals
-- **Security**: Access control, secrets management
-- **Automation**: Scripting and workflow automation
-
----
+- **CI/CD**: automated testing, build, and deployment
+- **Containers**: Docker images, registries, orchestration
+- **IaC**: Terraform, declarative infrastructure
+- **Observability**: metrics, logs, traces, alerting
+- **Reliability**: scaling, failover, incident response
 
 ## Beginner Projects (10 Projects)
 
-Start with foundational DevOps concepts through practical tasks.
+Foundational DevOps concepts through practical tasks.
 
 | # | Project | Description |
 |---|---------|-------------|
@@ -36,11 +44,9 @@ Start with foundational DevOps concepts through practical tasks.
 | 9 | [Cron Job Manager](./beginner/09-cron-manager/) | Schedule and manage automated tasks |
 | 10 | [Service Restart Monitor](./beginner/10-service-restart/) | Monitor and restart failed services |
 
----
-
 ## Intermediate Projects (10 Projects)
 
-Integrate multiple concepts and work with real-world DevOps patterns.
+Multiple concepts combined into real-world DevOps patterns.
 
 | # | Project | Description |
 |---|---------|-------------|
@@ -55,11 +61,9 @@ Integrate multiple concepts and work with real-world DevOps patterns.
 | 9 | [Load Balancing System](./intermediate/09-load-balancing/) | Distribute traffic across multiple servers |
 | 10 | [Container Orchestration](./intermediate/10-container-orchestration/) | Manage multiple containers at scale |
 
----
-
 ## Advanced Projects (10 Projects)
 
-Design and architect complex infrastructure with enterprise considerations.
+Architect complex infrastructure with enterprise-grade concerns.
 
 | # | Project | Description |
 |---|---------|-------------|
@@ -74,130 +78,40 @@ Design and architect complex infrastructure with enterprise considerations.
 | 9 | [Cost Monitoring System](./advanced/09-cost-monitoring/) | Track and optimize cloud infrastructure costs |
 | 10 | [Platform Engineering Toolkit](./advanced/10-platform-engineering/) | Build internal developer platforms |
 
----
-
 ## Learning Path
 
-### Timeline & Progression
+- **Beginner (2–3 weeks)**: Docker fundamentals, basic CI/CD, shell scripting,
+  manual deployments.
+- **Intermediate (4–6 weeks)**: Kubernetes, CI/CD pipelines, Infrastructure as
+  Code, monitoring and logging.
+- **Advanced (2–3 months)**: multi-region deployments, service meshes,
+  internal platforms, reliability at scale.
 
-**Beginner Phase**: 2-3 weeks
-- Learn Docker fundamentals
-- Understand basic CI/CD concepts
-- Master command-line tools and scripting
-- Deploy simple applications manually
+Automate everything and add observability from day one — never bolt it on later.
 
-**Intermediate Phase**: 4-6 weeks
-- Learn Kubernetes essentials
-- Build CI/CD pipelines
-- Understand Infrastructure as Code
-- Implement monitoring and logging
+## Key Concepts
 
-**Advanced Phase**: 2-3 months
-- Design multi-region deployments
-- Implement service meshes
-- Build internal platforms
-- Architect for scalability and reliability
-
-### Recommended Tech Stacks
-
-#### Core Tools
-
-**Containerization**
-- Docker (container runtime)
-- Docker Compose (multi-container orchestration)
-- Container registries (Docker Hub, ECR, GCR)
-
-**Orchestration**
-- Kubernetes (container orchestration)
-- Helm (Kubernetes package management)
-
-**CI/CD**
-- GitHub Actions, GitLab CI, Jenkins
-- GitOps tools: ArgoCD, Flux
-
-**Infrastructure**
-- Terraform (infrastructure as code)
-- Ansible (configuration management)
-
-**Monitoring**
-- Prometheus (metrics collection)
-- Grafana (visualization)
-- ELK Stack (logging)
-- Jaeger (tracing)
-
-**Cloud Platforms**
-- AWS, GCP, Azure, DigitalOcean
-
-### Key Concepts to Master
-
-1. **Linux & Bash**: Shell scripting and system administration
-2. **Networking**: DNS, TCP/IP, load balancing, firewalls
-3. **Databases**: Backup, replication, high availability
-4. **Security**: Secrets management, access control, encryption
-5. **Containerization**: Docker, images, registries
-6. **Orchestration**: Kubernetes concepts and operations
-7. **CI/CD**: Pipelines, testing automation, deployment
-8. **Observability**: Metrics, logs, traces, alerting
-
----
-
-## Tips for Success
-
-1. **Master Fundamentals**: Learn Linux and Docker before Kubernetes
-2. **Automate Everything**: Manual tasks should be rare
-3. **Test Infrastructure**: Use Infrastructure as Code and version control
-4. **Monitor from Day One**: Don't add monitoring after problems appear
-5. **Plan for Failure**: Assume things will fail and design accordingly
-6. **Document Runbooks**: Make troubleshooting repeatable
-7. **Start Small**: Master simple setups before complex architectures
-8. **Security First**: Never compromise on security for convenience
-
----
-
-## Common Mistakes to Avoid
-
-- Running everything on single servers
-- Lack of monitoring and observability
-- Manual deployments instead of automation
-- No disaster recovery planning
-- Hardcoding configuration values
-- Ignoring security best practices
-- Not testing failover scenarios
-- Storing secrets in version control
-
----
+1. **Linux & Bash** — scripting and system administration
+2. **Networking** — DNS, load balancing, firewalls
+3. **Containers** — Docker, images, registries
+4. **Orchestration** — Kubernetes concepts and operations
+5. **CI/CD** — pipelines, test automation, deployment
+6. **IaC** — Terraform, declarative provisioning
+7. **Observability** — metrics, logs, traces, alerting
 
 ## Resources
 
 - [Docker Documentation](https://docs.docker.com/)
-- [Kubernetes Official Tutorial](https://kubernetes.io/docs/tutorials/)
-- [Terraform Documentation](https://www.terraform.io/docs)
+- [Kubernetes Tutorials](https://kubernetes.io/docs/tutorials/)
+- [Terraform Documentation](https://developer.hashicorp.com/terraform/docs)
 - [GitHub Actions Documentation](https://docs.github.com/en/actions)
 - [DevOps Roadmap](https://roadmap.sh/devops)
-- [Linux Academy / A Cloud Guru](https://www.pluralsight.com/)
-- [Kubernetes in 100 Seconds](https://www.youtube.com/results?search_query=kubernetes+in+100+seconds)
-
----
-
-## Real-World Scenarios
-
-- Deploying microservices to Kubernetes
-- Setting up CI/CD for rapid releases
-- Multi-environment deployments (dev, staging, prod)
-- Database backup and recovery procedures
-- Infrastructure disaster recovery
-- Cost optimization across cloud resources
-- Security and compliance automation
-
----
 
 ## Next Steps
 
-1. Install Docker and learn containerization basics
-2. Choose a beginner project and read its README
-3. Set up a simple local development environment
-4. Implement each project step by step
-5. Deploy to a cloud platform (even free tier)
-6. Progress to intermediate projects
+1. Install Docker and learn containerization basics.
+2. Pick a beginner project and read its brief end to end.
+3. Set up a simple local environment, then deploy to a free-tier cloud.
+4. Build it step by step, then attempt the stretch goals.
 
-**Ready to automate and scale systems? Pick a project and start building your DevOps skills!**
+**Pick a project and start automating.**
