@@ -1,26 +1,35 @@
 ![Data Science Projects Banner](../images/banner-data-science.png)
 
+> 🌐 **English** · [Português](./README.pt-BR.md)
+
 # Data Science Projects
 
-Transform data into actionable insights through analysis, visualization, and machine learning. Data science projects focus on exploratory analysis, predictive modeling, and data-driven decision making.
+Turn raw data into insight and prediction: exploratory analysis, statistical
+reasoning, machine learning models, and clear storytelling. These are guided
+exercises — you get the *what* and the *why*, then you write the code.
+
+> Every project has both an English (`README.md`) and a Portuguese
+> (`README.pt-BR.md`) brief.
+
+## What You'll Build
+
+- Reproducible EDA notebooks and cleaning pipelines
+- Regression, classification, and clustering models
+- Recommendation engines and NLP pipelines
+- End-to-end ML workflows with evaluation and tuning
+- Deep learning and production ML systems
 
 ## What You'll Learn
 
-Data science encompasses:
-- **Data Exploration**: Understanding data structure and distributions
-- **Data Cleaning**: Handling missing values, outliers, and inconsistencies
-- **Statistical Analysis**: Hypothesis testing, correlations, distributions
-- **Data Visualization**: Creating meaningful charts and dashboards
-- **Machine Learning**: Supervised and unsupervised learning algorithms
-- **Model Evaluation**: Metrics, validation, and hyperparameter tuning
-- **Storytelling**: Communicating insights effectively
-- **Python/R Fundamentals**: Programming for data analysis
-
----
+- **Exploration**: distributions, correlations, data quality
+- **Statistics**: hypothesis testing, A/B analysis, validation
+- **Modeling**: supervised and unsupervised algorithms
+- **Feature engineering**: creating and selecting signal
+- **Evaluation**: metrics, cross-validation, hyperparameter tuning
 
 ## Beginner Projects (10 Projects)
 
-Start with foundational data science concepts through hands-on analysis.
+Foundational data science concepts through hands-on analysis.
 
 | # | Project | Description |
 |---|---------|-------------|
@@ -35,11 +44,9 @@ Start with foundational data science concepts through hands-on analysis.
 | 9 | [Feature Importance Analysis](./beginner/09-feature-importance/) | Identify which features matter most in data |
 | 10 | [Time Series Basic Forecast](./beginner/10-time-series-forecast/) | Predict future values from historical data |
 
----
-
 ## Intermediate Projects (10 Projects)
 
-Integrate multiple concepts and work with real-world data science patterns.
+Multiple concepts combined into real-world data science patterns.
 
 | # | Project | Description |
 |---|---------|-------------|
@@ -54,11 +61,9 @@ Integrate multiple concepts and work with real-world data science patterns.
 | 9 | [Time Series Forecasting](./intermediate/09-time-series-arima/) | Build ARIMA models for forecasting |
 | 10 | [ML Pipeline (End-to-End)](./intermediate/10-ml-pipeline/) | Create complete ML workflow with all steps |
 
----
-
 ## Advanced Projects (10 Projects)
 
-Design and architect complex data science systems with enterprise considerations.
+Architect complex data science systems with enterprise-grade concerns.
 
 | # | Project | Description |
 |---|---------|-------------|
@@ -73,112 +78,40 @@ Design and architect complex data science systems with enterprise considerations
 | 9 | [Explainable AI Tool](./advanced/09-explainable-ai/) | Build interpretable machine learning models |
 | 10 | [Multi-Model Ensemble](./advanced/10-multi-model-ensemble/) | Combine multiple models for better predictions |
 
----
-
 ## Learning Path
 
-### Timeline & Progression
+- **Beginner (3–4 weeks)**: Python for data, NumPy/Pandas/Matplotlib, basic
+  exploration, cleaning, and first models.
+- **Intermediate (6–8 weeks)**: scikit-learn algorithms, feature engineering,
+  evaluation and validation on real datasets.
+- **Advanced (2–3 months)**: production ML, deep learning, scalable pipelines,
+  deployment and monitoring.
 
-**Beginner Phase**: 3-4 weeks
-- Learn Python fundamentals for data science
-- Understand NumPy, Pandas, and Matplotlib
-- Perform basic data exploration and cleaning
-- Build first machine learning models
+Understand the data before you model it — cleaning and EDA come first.
 
-**Intermediate Phase**: 6-8 weeks
-- Master scikit-learn and ML algorithms
-- Learn feature engineering and selection
-- Understand model evaluation and validation
-- Work with real-world datasets
+## Key Concepts
 
-**Advanced Phase**: 2-3 months
-- Build production ML systems
-- Work with deep learning frameworks
-- Implement scalable pipelines
-- Deploy models and monitor performance
-
-### Recommended Tech Stacks
-
-#### Core Tools
-
-**Python Stack**
-- NumPy, Pandas (data manipulation)
-- Matplotlib, Seaborn, Plotly (visualization)
-- scikit-learn (machine learning)
-- TensorFlow, PyTorch (deep learning)
-- Jupyter Notebooks (experimentation)
-
-**Complementary Tools**
-- Git (version control)
-- SQL (database queries)
-- Docker (reproducibility)
-- MLflow, Weights & Biases (experiment tracking)
-
-### Key Concepts to Master
-
-1. **Statistics**: Distributions, hypothesis testing, correlations
-2. **Data Manipulation**: Cleaning, transformation, aggregation
-3. **Visualization**: Creating meaningful charts and dashboards
-4. **ML Algorithms**: Regression, classification, clustering
-5. **Feature Engineering**: Creating and selecting features
-6. **Model Evaluation**: Cross-validation, metrics, hyperparameter tuning
-7. **Deep Learning**: Neural networks, CNNs, RNNs, Transformers
-8. **Deployment**: Model serving, monitoring, A/B testing
-
----
-
-## Tips for Success
-
-1. **Start with Data Understanding**: Spend time exploring before modeling
-2. **Clean Data is Crucial**: Invest in data quality, not just algorithms
-3. **Visualize Everything**: Plots reveal insights that statistics miss
-4. **Iterate on Features**: Feature engineering often matters more than algorithm choice
-5. **Validate Properly**: Use cross-validation and test sets rigorously
-6. **Think Like a Business**: Connect models to real-world problems
-7. **Document Your Work**: Make your analysis reproducible
-8. **Share Your Insights**: Present findings clearly to stakeholders
-
----
-
-## Common Mistakes to Avoid
-
-- Data leakage in training/test splits
-- Ignoring class imbalance in classification
-- Over-fitting without proper validation
-- Neglecting data quality issues
-- Using wrong metrics for the problem
-- Not understanding your data before modeling
-- Optimizing for accuracy instead of business metrics
-
----
+1. **Statistics** — distributions, hypothesis testing, correlations
+2. **Data manipulation** — cleaning, transformation, aggregation
+3. **Visualization** — meaningful charts and dashboards
+4. **ML algorithms** — regression, classification, clustering
+5. **Feature engineering** — creating and selecting features
+6. **Evaluation** — cross-validation, metrics, tuning
+7. **Deep learning** — neural nets, CNNs, RNNs, transformers
 
 ## Resources
 
-- [Python for Data Analysis (Pandas & NumPy)](https://wesmckinney.com/book/)
-- [Scikit-Learn Documentation](https://scikit-learn.org/)
-- [Fast.ai Practical Deep Learning](https://www.fast.ai/)
-- [Andrew Ng's Machine Learning Course](https://www.coursera.org/learn/machine-learning)
-- [Data Science Roadmap](https://roadmap.sh/data-science)
-- [Kaggle Competitions](https://www.kaggle.com/competitions)
-
----
-
-## Real-World Datasets
-
+- [Python for Data Analysis (McKinney)](https://wesmckinney.com/book/)
+- [scikit-learn Documentation](https://scikit-learn.org/)
+- [fast.ai — Practical Deep Learning](https://www.fast.ai/)
 - [Kaggle Datasets](https://www.kaggle.com/datasets)
-- [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php)
-- [Google Dataset Search](https://datasetsearch.research.google.com/)
-- [GitHub Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets)
-
----
+- [Data Scientist Roadmap](https://roadmap.sh/ai-data-scientist)
 
 ## Next Steps
 
-1. Install Python, Jupyter, and necessary libraries
-2. Choose a beginner project and read its README
-3. Explore the dataset before modeling
-4. Implement the project step by step
-5. Create visualizations to understand results
-6. Progress to intermediate projects
+1. Install Python, Jupyter, and the core libraries.
+2. Pick a beginner project and read its brief end to end.
+3. Explore the dataset before modeling.
+4. Build it step by step, then attempt the stretch goals.
 
-**Ready to discover insights in data? Pick a project and start analyzing!**
+**Pick a project and start discovering insights.**

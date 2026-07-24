@@ -1,26 +1,35 @@
 ![Frontend Projects Banner](../images/banner-frontend.png)
 
+> 🌐 **English** · [Português](./README.pt-BR.md)
+
 # Frontend Development Projects
 
-Create beautiful, interactive user interfaces that engage users. Frontend projects focus on responsive design, state management, performance optimization, and modern web technologies.
+Build interfaces people actually enjoy using: responsive layouts, real-time
+UIs, accessible components, and performant single-page apps. These are guided
+exercises — you get the *what* and the *why*, then you write the code.
+
+> Every project has both an English (`README.md`) and a Portuguese
+> (`README.pt-BR.md`) brief.
+
+## What You'll Build
+
+- Interactive apps with clean, component-based structure
+- Real-time interfaces powered by WebSockets
+- Reusable design systems and component libraries
+- Offline-first PWAs and performance-optimized dashboards
+- Accessible UIs that meet WCAG standards
 
 ## What You'll Learn
 
-Frontend development encompasses:
-- **HTML & CSS**: Semantic markup and responsive design
-- **JavaScript**: DOM manipulation, events, and modern ES6+
-- **UI Frameworks**: React, Vue, Angular, Svelte
-- **State Management**: Managing complex application state
-- **Performance**: Optimization, lazy loading, code splitting
-- **Accessibility**: Creating inclusive web experiences
-- **Testing**: Unit tests, component tests, E2E testing
-- **UX/UI Principles**: Design patterns and user experience
-
----
+- **Core web**: semantic HTML, modern CSS, ES6+ JavaScript
+- **Frameworks**: component models in React, Vue, Angular, or Svelte
+- **State**: local, global, and server state management
+- **Performance**: code splitting, lazy loading, virtualization
+- **Accessibility**: ARIA, keyboard navigation, screen readers
 
 ## Beginner Projects (10 Projects)
 
-Start with foundational frontend concepts through interactive applications.
+Foundational frontend concepts through interactive apps.
 
 | # | Project | Description |
 |---|---------|-------------|
@@ -35,11 +44,9 @@ Start with foundational frontend concepts through interactive applications.
 | 9 | [Quiz App](./beginner/09-quiz-app/) | Create an interactive quiz with scoring |
 | 10 | [Timer App](./beginner/10-timer-app/) | Build a working timer with start, pause, reset |
 
----
-
 ## Intermediate Projects (10 Projects)
 
-Integrate multiple concepts and work with real-world frontend patterns.
+Multiple concepts combined into real-world frontend patterns.
 
 | # | Project | Description |
 |---|---------|-------------|
@@ -54,11 +61,9 @@ Integrate multiple concepts and work with real-world frontend patterns.
 | 9 | [Theme Switcher App](./intermediate/09-theme-switcher/) | Implement dark/light theme switching with persistence |
 | 10 | [Real-Time Notifications UI](./intermediate/10-real-time-notifications/) | Display push notifications and alerts |
 
----
-
 ## Advanced Projects (10 Projects)
 
-Design and architect complex frontend systems with enterprise considerations.
+Architect complex frontend systems with enterprise-grade concerns.
 
 | # | Project | Description |
 |---|---------|-------------|
@@ -73,107 +78,40 @@ Design and architect complex frontend systems with enterprise considerations.
 | 9 | [Data-Heavy Dashboard](./advanced/09-data-heavy-dashboard/) | Build dashboards with virtualization and optimization |
 | 10 | [Frontend Observability Tool](./advanced/10-observability-tool/) | Create monitoring and analytics for frontend performance |
 
----
-
 ## Learning Path
 
-### Timeline & Progression
+- **Beginner (2–4 weeks)**: HTML, CSS, vanilla JavaScript, DOM events,
+  responsive design.
+- **Intermediate (4–8 weeks)**: a modern framework, component architecture,
+  state management, API integration.
+- **Advanced (2–3 months)**: scalable apps, performance optimization, advanced
+  patterns, accessibility, and testing.
 
-**Beginner Phase**: 2-4 weeks
-- Master HTML, CSS, and vanilla JavaScript
-- Understand DOM manipulation and events
-- Learn responsive design principles
-- Build static and interactive pages
+Build responsive and accessible from day one — don't bolt it on later.
 
-**Intermediate Phase**: 4-8 weeks
-- Learn a modern framework (React, Vue, or Angular)
-- Implement component-based architecture
-- Handle state management
-- Integrate with backend APIs
+## Key Concepts
 
-**Advanced Phase**: 2-3 months
-- Build scalable applications
-- Optimize performance
-- Implement advanced patterns (microfrontends, etc.)
-- Master accessibility and testing
-
-### Recommended Tech Stacks
-
-#### Popular Frameworks
-
-**React Ecosystem**
-- React, Next.js
-- Redux, Context API, Zustand
-- Tailwind CSS, Material UI
-
-**Vue Ecosystem**
-- Vue 3, Nuxt
-- Pinia, Vuex
-- Tailwind CSS, Vuetify
-
-**Angular Ecosystem**
-- Angular, NX
-- RxJS, NgRx
-- Angular Material
-
-**Lightweight Options**
-- Svelte, SvelteKit
-- Astro
-- Plain JavaScript + Web Components
-
-### Key Concepts to Master
-
-1. **Core Technologies**: HTML5, CSS3, JavaScript ES6+
-2. **Responsive Design**: Mobile-first, media queries, flexbox/grid
-3. **Components**: Building reusable, composable UI elements
-4. **State Management**: Managing application state efficiently
-5. **APIs**: Fetching data, HTTP requests, WebSockets
-6. **Performance**: Code splitting, lazy loading, optimization
-7. **Testing**: Unit tests, component tests, E2E testing
-8. **Accessibility**: ARIA labels, keyboard navigation, screen readers
-
----
-
-## Tips for Success
-
-1. **Start with Fundamentals**: Master vanilla JavaScript before frameworks
-2. **Build Responsive First**: Design mobile-first from the start
-3. **Focus on UX**: User experience matters more than technical complexity
-4. **Test Early**: Write tests as you build, not after
-5. **Optimize Performance**: Monitor and improve metrics continuously
-6. **Keep Accessibility in Mind**: Build inclusive interfaces from day one
-7. **Build Portfolio Projects**: Showcase your best work publicly
-
----
+1. **Core technologies** — HTML5, CSS3, JavaScript ES6+
+2. **Responsive design** — mobile-first, flexbox, grid
+3. **Components** — reusable, composable UI elements
+4. **State management** — local vs. global vs. server state
+5. **Data** — fetch, HTTP, WebSockets
+6. **Performance** — code splitting, lazy loading
+7. **Accessibility** — ARIA, keyboard, screen readers
 
 ## Resources
 
 - [MDN Web Docs](https://developer.mozilla.org/)
 - [CSS-Tricks](https://css-tricks.com/)
-- [Frontend Roadmap](https://roadmap.sh/frontend)
-- [Web Design Best Practices](https://www.smashingmagazine.com/)
-- [Accessibility Guidelines](https://www.w3.org/WAI/WCAG21/quickref/)
-- [Performance Optimization](https://web.dev/performance/)
-
----
-
-## Common Mistakes to Avoid
-
-- Skipping CSS and jumping to frameworks
-- Over-complicating state management early
-- Ignoring accessibility requirements
-- Not testing responsive designs
-- Neglecting performance optimization
-- Building without considering users
-
----
+- [web.dev — Performance](https://web.dev/performance/)
+- [WCAG 2.1 Quick Reference](https://www.w3.org/WAI/WCAG21/quickref/)
+- [Frontend Developer Roadmap](https://roadmap.sh/frontend)
 
 ## Next Steps
 
-1. Choose a beginner project and read its README
-2. Set up your development environment with your preferred tools
-3. Build the project, focusing on user experience
-4. Add your own creative touches
-5. Progress to intermediate projects when ready
+1. Pick a beginner project and read its brief end to end.
+2. Set up your tooling with whatever framework you prefer.
+3. Build it milestone by milestone, focusing on UX.
+4. Check the Definition of Done, then attempt the stretch goals.
 
-**Ready to build beautiful interfaces? Pick a project and start coding!**
+**Pick a project and start building beautiful interfaces.**

@@ -1,24 +1,35 @@
 ![Backend Projects Banner](../images/banner-backend.png)
 
+> 🌐 **English** · [Português](./README.pt-BR.md)
+
 # Backend Development Projects
 
-Master the art of building robust server applications, APIs, and distributed systems. Backend projects focus on architecture, data persistence, scalability, and real-world patterns that power modern applications.
+Build the server side of real applications: APIs, authentication, data
+persistence, message queues, and distributed services. These are guided
+exercises — you get the *what* and the *why*, then you write the code.
+
+> Every project has both an English (`README.md`) and a Portuguese
+> (`README.pt-BR.md`) brief.
+
+## What You'll Build
+
+- REST and GraphQL APIs with clean, versioned contracts
+- Authentication and authorization flows (sessions, JWT, OAuth2)
+- Background job processors and event-driven services
+- Caching layers, rate limiters, and resilient integrations
+- Distributed systems with observability and fault tolerance
 
 ## What You'll Learn
 
-Backend development encompasses:
-- **REST & API Design**: Building scalable APIs and microservices
-- **Databases & Data Management**: SQL, NoSQL, and data modeling
-- **Authentication & Security**: User management, JWT, OAuth
-- **Scalability Patterns**: Caching, load balancing, message queues
-- **System Architecture**: Microservices, event-driven systems, distributed transactions
-- **DevOps Integration**: Deployment, monitoring, and operations
-
----
+- **API design**: RESTful principles, GraphQL, gRPC
+- **Data management**: SQL/NoSQL modeling, indexing, transactions
+- **Security**: password hashing, token flows, tenant isolation
+- **Scalability**: caching, queues, load balancing, sharding
+- **Reliability**: retries, idempotency, circuit breakers, monitoring
 
 ## Beginner Projects (10 Projects)
 
-Start with foundational backend concepts through simple, focused applications.
+Foundational backend concepts through small, focused services.
 
 | # | Project | Description |
 |---|---------|-------------|
@@ -33,11 +44,9 @@ Start with foundational backend concepts through simple, focused applications.
 | 9 | [Static JSON API Server](./beginner/09-static-json-api-server/) | Build a minimal API server serving static JSON data |
 | 10 | [Email Sender Mock Service](./beginner/10-email-sender-mock-service/) | Create a service that simulates sending emails |
 
----
-
 ## Intermediate Projects (10 Projects)
 
-Integrate multiple concepts and work with real-world backend patterns.
+Multiple concepts combined into real-world backend patterns.
 
 | # | Project | Description |
 |---|---------|-------------|
@@ -52,11 +61,9 @@ Integrate multiple concepts and work with real-world backend patterns.
 | 9 | [API Gateway](./intermediate/09-api-gateway/) | Implement a gateway for routing and managing APIs |
 | 10 | [GraphQL API with Resolvers](./intermediate/10-graphql-api/) | Build a GraphQL server with efficient data fetching |
 
----
-
 ## Advanced Projects (10 Projects)
 
-Design and architect complex systems with enterprise considerations.
+Architect complex systems with enterprise-grade concerns.
 
 | # | Project | Description |
 |---|---------|-------------|
@@ -71,93 +78,41 @@ Design and architect complex systems with enterprise considerations.
 | 9 | [Streaming Platform Backend](./advanced/09-streaming-platform-backend/) | Build backend for a Netflix-like video service |
 | 10 | [Idempotent Financial Transactions](./advanced/10-idempotent-financial-transactions/) | Design systems handling financial operations safely |
 
----
-
 ## Learning Path
 
-### Timeline & Progression
+- **Beginner (2–4 weeks)**: HTTP and REST basics, routing and middleware,
+  in-memory storage, simple auth.
+- **Intermediate (4–8 weeks)**: real databases, JWT/OAuth, caching layers,
+  API versioning and design.
+- **Advanced (2–3 months)**: distributed systems, microservices, scalability,
+  observability, and reliability trade-offs.
 
-**Beginner Phase**: 2-4 weeks
-- Learn HTTP basics and REST principles
-- Understand routing, middleware, and request handling
-- Work with in-memory storage before databases
-- Implement simple authentication
+Work top to bottom within a level before moving up — each tier assumes the
+previous one.
 
-**Intermediate Phase**: 4-8 weeks
-- Integrate with real databases (SQL and NoSQL)
-- Implement proper authentication (JWT, OAuth)
-- Add caching layers for performance
-- Learn about API design and versioning
+## Key Concepts
 
-**Advanced Phase**: 2-3 months
-- Design distributed systems
-- Implement microservices patterns
-- Handle scalability and reliability
-- Build observability and monitoring
-
-### Recommended Tech Stacks
-
-#### By Language
-
-**JavaScript/Node.js**
-- Express, Fastify, NestJS
-- PostgreSQL, MongoDB
-- Redis, RabbitMQ
-
-**Python**
-- Django, Flask, FastAPI
-- PostgreSQL, SQLAlchemy
-- Celery, Redis
-
-**Java**
-- Spring Boot, Quarkus
-- PostgreSQL, Hibernate
-- Apache Kafka, RabbitMQ
-
-**Go**
-- Gin, Echo, Chi
-- PostgreSQL, Mongodb
-- gRPC, Protocol Buffers
-
-### Key Concepts to Master
-
-1. **API Design**: RESTful principles, GraphQL, gRPC
-2. **Databases**: SQL fundamentals, indexing, query optimization
-3. **Authentication**: Sessions, JWT, OAuth2
-4. **Caching**: In-memory caches, cache invalidation strategies
-5. **Message Queues**: Background jobs, event streaming
-6. **Testing**: Unit tests, integration tests, API testing
-7. **Deployment**: Containerization, orchestration, CI/CD
-
----
-
-## Tips for Success
-
-1. **Start Small**: Master one concept deeply before moving to the next
-2. **Use Real Databases**: Move beyond in-memory storage quickly
-3. **Build APIs First**: Start with endpoints before adding complexity
-4. **Practice Security**: Implement authentication/authorization early
-5. **Monitor Everything**: Add logging and monitoring from the beginning
-6. **Scale Gradually**: Understand performance bottlenecks before optimizing
-
----
+1. **API design** — REST, GraphQL, gRPC contracts
+2. **Databases** — schema design, indexing, query optimization
+3. **Authentication** — sessions, JWT, OAuth2
+4. **Caching** — invalidation strategies, read-through/write-through
+5. **Messaging** — background jobs, pub/sub, event streaming
+6. **Resilience** — retries, idempotency, circuit breakers
+7. **Testing** — unit, integration, and contract tests
 
 ## Resources
 
 - [REST API Best Practices](https://restfulapi.net/)
-- [Database Design Fundamentals](https://www.postgresql.org/docs/)
-- [API Documentation Standards](https://swagger.io/)
+- [PostgreSQL Documentation](https://www.postgresql.org/docs/)
+- [OpenAPI / Swagger](https://swagger.io/)
 - [System Design Primer](https://github.com/donnemartin/system-design-primer)
-- [Backend Development Roadmap](https://roadmap.sh/backend)
-
----
+- [Backend Developer Roadmap](https://roadmap.sh/backend)
 
 ## Next Steps
 
-1. Choose a beginner project and read its README
-2. Set up your development environment
-3. Implement the project using your preferred tech stack
-4. Extend it with additional features
-5. Move to the next project when completed
+1. Pick a beginner project and read its brief end to end.
+2. Set up your environment in whatever stack you prefer.
+3. Build it milestone by milestone.
+4. Check the Definition of Done, then attempt the stretch goals.
 
-**Ready to start? Pick a project from the list above and begin building!**
+**Pick a project and start building.**
