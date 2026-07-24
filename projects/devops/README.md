@@ -25,16 +25,16 @@ Start with foundational DevOps concepts through practical tasks.
 
 | # | Project | Description |
 |---|---------|-------------|
-| 1 | [Dockerize a Simple App](./beginner/01-dockerize-app/) | Package an application in a Docker container |
-| 2 | [Basic CI Pipeline](./beginner/02-basic-ci-pipeline/) | Set up automated testing on code push |
+| 1 | [Dockerize a Simple App](./beginner/01-dockerize-simple-app/) | Package an application in a Docker container |
+| 2 | [Basic CI Pipeline](./beginner/02-basic-ci/) | Set up automated testing on code push |
 | 3 | [Environment Config Manager](./beginner/03-environment-config/) | Manage configuration across environments |
 | 4 | [Simple Deployment Script](./beginner/04-deployment-script/) | Automate application deployment with scripts |
 | 5 | [Log Monitoring Script](./beginner/05-log-monitoring/) | Collect and analyze application logs |
-| 6 | [Health Check System](./beginner/06-health-check-system/) | Monitor service health and availability |
+| 6 | [Health Check System](./beginner/06-health-check/) | Monitor service health and availability |
 | 7 | [Backup Automation](./beginner/07-backup-automation/) | Automate database and file backups |
 | 8 | [Basic Nginx Setup](./beginner/08-nginx-setup/) | Configure reverse proxy and web server |
-| 9 | [Cron Job Manager](./beginner/09-cron-job-manager/) | Schedule and manage automated tasks |
-| 10 | [Service Restart Monitor](./beginner/10-service-monitor/) | Monitor and restart failed services |
+| 9 | [Cron Job Manager](./beginner/09-cron-manager/) | Schedule and manage automated tasks |
+| 10 | [Service Restart Monitor](./beginner/10-service-restart/) | Monitor and restart failed services |
 
 ---
 
@@ -44,7 +44,7 @@ Integrate multiple concepts and work with real-world DevOps patterns.
 
 | # | Project | Description |
 |---|---------|-------------|
-| 1 | [CI/CD Pipeline with GitHub Actions](./intermediate/01-github-actions-cicd/) | Build complete CI/CD pipeline with GitHub Actions |
+| 1 | [CI/CD Pipeline with GitHub Actions](./intermediate/01-cicd-github-actions/) | Build complete CI/CD pipeline with GitHub Actions |
 | 2 | [Kubernetes Deployment](./intermediate/02-kubernetes-deployment/) | Deploy applications to Kubernetes clusters |
 | 3 | [Infrastructure as Code with Terraform](./intermediate/03-terraform-iac/) | Provision infrastructure using code |
 | 4 | [Centralized Logging System](./intermediate/04-centralized-logging/) | Set up ELK stack or similar for log aggregation |
@@ -63,13 +63,13 @@ Design and architect complex infrastructure with enterprise considerations.
 
 | # | Project | Description |
 |---|---------|-------------|
-| 1 | [Multi-Cluster Kubernetes Architecture](./advanced/01-multi-cluster-kubernetes/) | Manage Kubernetes across multiple clusters |
+| 1 | [Multi-Cluster Kubernetes Architecture](./advanced/01-multi-cluster-k8s/) | Manage Kubernetes across multiple clusters |
 | 2 | [GitOps Pipeline](./advanced/02-gitops-pipeline/) | Implement declarative infrastructure management |
 | 3 | [Chaos Engineering Setup](./advanced/03-chaos-engineering/) | Test resilience with controlled failures |
 | 4 | [Full Observability Platform](./advanced/04-observability-platform/) | Build complete monitoring, logging, and tracing |
 | 5 | [Multi-Region Deployment](./advanced/05-multi-region-deployment/) | Deploy applications across geographic regions |
 | 6 | [Zero-Downtime Deployment System](./advanced/06-zero-downtime-deployment/) | Implement sophisticated deployment strategies |
-| 7 | [Service Mesh Implementation](./advanced/07-service-mesh-istio/) | Deploy Istio for advanced traffic management |
+| 7 | [Service Mesh Implementation](./advanced/07-service-mesh/) | Deploy Istio for advanced traffic management |
 | 8 | [Incident Response Automation](./advanced/08-incident-response/) | Automate incident detection and response |
 | 9 | [Cost Monitoring System](./advanced/09-cost-monitoring/) | Track and optimize cloud infrastructure costs |
 | 10 | [Platform Engineering Toolkit](./advanced/10-platform-engineering/) | Build internal developer platforms |
