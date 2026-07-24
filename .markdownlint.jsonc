@@ -5,6 +5,7 @@
   "MD013": false, // line length — briefs use long descriptive sentences
   "MD033": false, // inline HTML — allowed in templates and callouts
   "MD041": false, // first line H1 — track pages open with a banner image
+  "MD025": false, // multiple H1 — bilingual single-file docs have EN + PT titles
   "MD026": false, // trailing punctuation in headings
   "MD036": false, // emphasis used as heading — used intentionally in callouts
   "MD024": { "siblings_only": true }, // repeated headings ok if under different parents
