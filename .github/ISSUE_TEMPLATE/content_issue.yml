@@ -1,0 +1,35 @@
+name: "📝 Content issue"
+description: "Report an error, broken link, unclear explanation, or typo in a project brief."
+title: "[content] <where and what>"
+labels: ["content", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: "Use this for anything wrong or confusing in the written material (project briefs, track pages, docs)."
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type of issue
+      options:
+        - Broken or wrong link
+        - Factual / technical error
+        - Unclear or incomplete explanation
+        - Typo / grammar
+        - Translation issue (EN ↔ PT-BR)
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: File or path
+      placeholder: "e.g. projects/backend/beginner/02-url-shortener-in-memory/README.md"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What is wrong?
+      description: Describe the problem and, if you can, how it should read instead.
+    validations:
+      required: true
