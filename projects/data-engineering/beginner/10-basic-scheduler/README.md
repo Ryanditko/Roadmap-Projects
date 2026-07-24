@@ -45,7 +45,7 @@ By the end, you should be able to:
 
 ```text
 job definitions (jobs file)
-  daily_export   "0 2 * * *"   -> run export.job
+  daily_export   `0 2 * * *`   -> run export.job
   every_15m      "*/15 * * * *"-> run sync.job
   weekday_report "30 8 * * 1-5"-> run report.job
 
@@ -70,7 +70,7 @@ history.log
 ## Stretch Goals
 
 - Add catch-up policy: on startup, decide whether to run jobs that were missed while down.
-- Support time zones so "0 2 * * *" means 2 AM in a configured zone.
+- Support time zones so `0 2 * * *` means 2 AM in a configured zone.
 - Add per-job retry with a max attempt count on failure.
 - Expose a small status command listing each job's last and next run.
 

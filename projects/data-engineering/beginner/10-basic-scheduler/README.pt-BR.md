@@ -45,7 +45,7 @@ Ao final, você deve ser capaz de:
 
 ```text
 definições de jobs (arquivo de jobs)
-  daily_export   "0 2 * * *"   -> roda export.job
+  daily_export   `0 2 * * *`   -> roda export.job
   every_15m      "*/15 * * * *"-> roda sync.job
   weekday_report "30 8 * * 1-5"-> roda report.job
 
@@ -70,7 +70,7 @@ history.log
 ## Desafios Extras
 
 - Adicionar política de recuperação: na inicialização, decidir se roda jobs que foram perdidos enquanto estava fora do ar.
-- Suportar fusos horários para que "0 2 * * *" signifique 2h em um fuso configurado.
+- Suportar fusos horários para que `0 2 * * *` signifique 2h em um fuso configurado.
 - Adicionar retry por job com um número máximo de tentativas em caso de falha.
 - Expor um pequeno comando de status listando a última e a próxima execução de cada job.
 
