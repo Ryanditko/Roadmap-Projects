@@ -1,126 +1,97 @@
 # Roadmap Projects
 
+> 🌐 **English** · [Português](./README.pt-BR.md)
+
 ![Roadmap Projects Banner](./projects/images/banner-main.png)
 
-A comprehensive learning resource featuring 180 curated project ideas organized across six technology domains. This repository is designed to help developers of all levels structure their learning journey through hands-on practice.
+<p align="center">
+  <img alt="Projects" src="https://img.shields.io/badge/projects-180-blue">
+  <img alt="Domains" src="https://img.shields.io/badge/domains-6-8A2BE2">
+  <img alt="Levels" src="https://img.shields.io/badge/levels-beginner→advanced-green">
+  <img alt="Languages" src="https://img.shields.io/badge/docs-EN%20%2B%20PT--BR-orange">
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-lightgrey">
+</p>
 
-## About This Repository
+**180 hands-on project briefs** across six technology domains and three difficulty
+levels — each written as a **guided exercise**, not a finished solution. You get the
+*what* and the *why*, plus milestones and data sketches; **you write the code.**
 
-This collection contains **180 project ideas** distributed across:
-- **6 Technology Domains**: Backend, Frontend, Data Science, Data Engineering, DevOps, and System Design
-- **3 Difficulty Levels**: Beginner, Intermediate, and Advanced
-- **10 Projects per Category**: Each domain and level combination contains 10 carefully selected projects
+## Table of contents
 
-All projects are **idea-focused** with implementation guidance, learning objectives, and key challenges—without explicit code. This approach lets you learn by doing while building problem-solving skills.
+- [Why this repo](#why-this-repo)
+- [Domains](#domains)
+- [How projects are structured](#how-projects-are-structured)
+- [Difficulty levels](#difficulty-levels)
+- [How to use this repo](#how-to-use-this-repo)
+- [Who it's for](#who-its-for)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Explore by Domain
+## Why this repo
 
-### Backend Development
-Build robust server applications, APIs, and business logic. Learn about architecture, databases, authentication, and scalability.
+Tutorials hand you the answer. This repo hands you a well-scoped problem and the
+scaffolding to solve it yourself — the way real engineering work arrives. Every
+brief tells you what to build, why it matters, how to break it into milestones,
+and how to know when you're done, while leaving the implementation to you.
 
-[Explore Backend Projects →](./projects/backend/README.md)
+## Domains
 
-### Frontend Development
-Create beautiful user interfaces and interactive web experiences. Master UI frameworks, state management, and user experience design.
+| Domain | What you'll build | Projects |
+|---|---|---|
+| [Backend](./projects/backend/README.md) | APIs, auth, queues, distributed services | 30 |
+| [Frontend](./projects/frontend/README.md) | UIs, state, real-time, performance, a11y | 30 |
+| [Data Science](./projects/data-science/README.md) | EDA, modeling, NLP, ML pipelines | 30 |
+| [Data Engineering](./projects/data-engineering/README.md) | ETL, streaming, warehouses, data lakes | 30 |
+| [DevOps](./projects/devops/README.md) | CI/CD, containers, IaC, observability | 30 |
+| [System Design](./projects/system-design/README.md) | Scalable, real-world architectures | 30 |
 
-[Explore Frontend Projects →](./projects/frontend/README.md)
+Each domain has **10 beginner + 10 intermediate + 10 advanced** projects.
 
-### Data Science
-Transform data into insights through analysis, visualization, and machine learning. Build predictive models and data pipelines.
+## How projects are structured
 
-[Explore Data Science Projects →](./projects/data-science/README.md)
+```text
+projects/<domain>/<level>/NN-<slug>/
+  README.md         # brief in English
+  README.pt-BR.md   # same brief in Portuguese
+```
 
-### Data Engineering
-Design and maintain data infrastructure. Master ETL processes, data warehousing, and streaming architectures.
+Every brief follows a consistent structure: **Overview · Prerequisites · Learning
+Objectives · Functional Requirements · Suggested Milestones · Data & Interface
+Sketch · Stretch Goals · Definition of Done · Common Pitfalls · Resources.**
 
-[Explore Data Engineering Projects →](./projects/data-engineering/README.md)
+## Difficulty levels
 
-### DevOps
-Automate deployments, manage infrastructure, and ensure system reliability. Learn CI/CD, containerization, and monitoring.
+- **Beginner** (2–8 hours): one core concept, few dependencies.
+- **Intermediate** (1–3 days): several concepts working together, real tooling.
+- **Advanced** (1–2 weeks+): architecture, scalability, and reliability trade-offs.
 
-[Explore DevOps Projects →](./projects/devops/README.md)
+## How to use this repo
 
-### System Design
-Design large-scale distributed systems. Tackle scalability, reliability, and performance challenges of real-world applications.
+1. **Pick a domain** that matches what you want to learn.
+2. **Choose a level** honestly — start where you'll be challenged, not overwhelmed.
+3. **Read the brief** end to end before writing any code.
+4. **Build it milestone by milestone** in whatever stack you prefer.
+5. **Check the Definition of Done**, then reach for the Stretch Goals.
 
-[Explore System Design Projects →](./projects/system-design/README.md)
+> Technology-agnostic: use any language or framework. The briefs describe
+> behavior and contracts, not a prescribed stack.
 
-## Learning Path
+## Who it's for
 
-### Progressive Structure
-
-Each domain is organized into three levels:
-
-- **Beginner** (2-8 hours): Build foundational understanding with small, focused projects
-- **Intermediate** (1-3 days): Integrate multiple concepts and work with real-world patterns
-- **Advanced** (1-2 weeks+): Design and architect complex systems with enterprise considerations
-
-### How to Use This Repository
-
-1. **Choose a Domain**: Pick the technology area you want to explore
-2. **Select Your Level**: Start with beginner projects or jump to your current skill level
-3. **Read the Project Brief**: Each project has a comprehensive README with:
-   - Project idea and overview
-   - Learning objectives to achieve
-   - Implementation tips and guidance
-   - Key challenges to overcome
-4. **Build It Your Way**: Use your preferred tech stack and tools
-5. **Extend and Improve**: Enhance projects with additional features and optimizations
-
-## Who This Is For
-
-- **Students**: Structured practice with real-world concepts
-- **Self-taught Developers**: Guided learning without traditional education
-- **Career Changers**: Build portfolio projects while learning new domains
-- **Bootcamp Graduates**: Reinforce concepts with practical projects
-- **Educators**: Source of assignment ideas and learning materials
-- **Interview Preparation**: Practice system design and problem-solving
-
-## Project Guidelines
-
-### Time Investment
-- Beginner projects typically take 2-8 hours
-- Intermediate projects: 1-3 days of focused work
-- Advanced projects: 1-2 weeks or more depending on scope
-
-### Technology Agnostic
-Projects are designed to work with any technology stack. Choose what you're comfortable with:
-- **Backend**: Node.js, Python, Java, Go, Ruby, PHP
-- **Frontend**: React, Vue, Angular, Svelte, vanilla JavaScript
-- **Data**: Python (pandas, scikit-learn), R, Julia, Scala
-- **DevOps**: Kubernetes, Docker, Terraform, AWS, GCP, Azure
-
-### Learning Focus
-Each project emphasizes understanding concepts over memorizing syntax. The goal is to build problem-solving skills transferable across technologies.
-
-## Getting Started
-
-1. Browse the six domains above
-2. Open a domain's README to see all 30 projects (beginner, intermediate, advanced)
-3. Click on a project folder to read its detailed README
-4. Start implementing with your preferred tools and approach
+Students, self-taught developers, career changers, bootcamp grads, educators
+sourcing assignments, and anyone prepping for interviews with real practice.
 
 ## Contributing
 
-We welcome contributions! If you'd like to add new projects or improve existing ones:
-
-1. Read [CONTRIBUTING.md](./CONTRIBUTING.md)
-2. Fork the repository
-3. Create a feature branch
-4. Submit a pull request with your improvements
+Contributions are welcome — new projects, fixes, and translations. Start with
+[CONTRIBUTING.md](./CONTRIBUTING.md) and the
+[project template](./.github/PROJECT_TEMPLATE.md). Please keep briefs as guided
+exercises and both language versions in sync.
 
 ## License
 
-This project is licensed under the MIT License. See [LICENSE](./LICENSE) for details.
-
-## Support
-
-If this repository has been helpful:
-- Star the project to show support
-- Share it with others learning to code
-- Report issues or suggest improvements
-- Contribute new project ideas
+Released under the [MIT License](./LICENSE).
 
 ---
 
-**Happy learning! Pick a domain and start building.**
+**Pick a domain and start building.**
