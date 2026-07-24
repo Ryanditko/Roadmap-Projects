@@ -1,0 +1,36 @@
+name: Link check
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "**/*.md"
+      - ".github/workflows/link-check.yml"
+  pull_request:
+    paths:
+      - "**/*.md"
+      - ".github/workflows/link-check.yml"
+  # Weekly run to catch external links that rot over time.
+  schedule:
+    - cron: "0 6 * * 1"
+
+permissions:
+  contents: read
+
+jobs:
+  linkcheck:
+    name: Check relative links
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Verify internal links with lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # Offline mode only resolves local/relative links against the file
+          # tree — no flaky external HTTP. This is what guards navigation.
+          args: >-
+            --offline
+            --no-progress
+            './**/*.md'
+          fail: true
