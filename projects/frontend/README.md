@@ -26,12 +26,12 @@ Start with foundational frontend concepts through interactive applications.
 |---|---------|-------------|
 | 1 | [To-Do List App](./beginner/01-todo-list-app/) | Build an interactive task management application |
 | 2 | [Calculator UI](./beginner/02-calculator-ui/) | Create a functional calculator with a clean interface |
-| 3 | [Static Portfolio Website](./beginner/03-static-portfolio-website/) | Design a personal portfolio showcasing your work |
-| 4 | [Weather App](./beginner/04-weather-app-api/) | Display weather data by consuming an API |
+| 3 | [Static Portfolio Website](./beginner/03-static-portfolio/) | Design a personal portfolio showcasing your work |
+| 4 | [Weather App](./beginner/04-weather-app/) | Display weather data by consuming an API |
 | 5 | [Simple Blog UI](./beginner/05-simple-blog-ui/) | Create a blog display with multiple articles |
 | 6 | [Login/Register Forms](./beginner/06-login-register-forms/) | Build authentication forms with validation |
 | 7 | [Image Gallery](./beginner/07-image-gallery/) | Create a responsive photo gallery with lightbox |
-| 8 | [Notes UI with Local Storage](./beginner/08-notes-ui-local-storage/) | Build a note-taking app persisting to localStorage |
+| 8 | [Notes UI with Local Storage](./beginner/08-notes-ui/) | Build a note-taking app persisting to localStorage |
 | 9 | [Quiz App](./beginner/09-quiz-app/) | Create an interactive quiz with scoring |
 | 10 | [Timer App](./beginner/10-timer-app/) | Build a working timer with start, pause, reset |
 
@@ -43,16 +43,16 @@ Integrate multiple concepts and work with real-world frontend patterns.
 
 | # | Project | Description |
 |---|---------|-------------|
-| 1 | [Dashboard with Charts](./intermediate/01-dashboard-with-charts/) | Build an analytics dashboard with data visualization |
-| 2 | [Kanban Board with Drag & Drop](./intermediate/02-kanban-board-drag-drop/) | Create a task organizer with draggable cards |
+| 1 | [Dashboard with Charts](./intermediate/01-analytics-dashboard/) | Build an analytics dashboard with data visualization |
+| 2 | [Kanban Board with Drag & Drop](./intermediate/02-kanban-board/) | Create a task organizer with draggable cards |
 | 3 | [E-Commerce Frontend](./intermediate/03-ecommerce-frontend/) | Build a product catalog with shopping cart |
-| 4 | [Chat UI with WebSockets](./intermediate/04-chat-ui-websockets/) | Create a real-time messaging interface |
-| 5 | [Admin Panel with CRUD](./intermediate/05-admin-panel-crud/) | Build an interface for managing data |
+| 4 | [Chat UI with WebSockets](./intermediate/04-chat-ui/) | Create a real-time messaging interface |
+| 5 | [Admin Panel with CRUD](./intermediate/05-admin-panel/) | Build an interface for managing data |
 | 6 | [Markdown Editor](./intermediate/06-markdown-editor/) | Create an editor with live markdown preview |
 | 7 | [File Upload UI](./intermediate/07-file-upload-ui/) | Build file upload with progress tracking |
 | 8 | [Multi-Step Form](./intermediate/08-multi-step-form/) | Create a wizard-style form with validation |
-| 9 | [Theme Switcher App](./intermediate/09-theme-switcher-app/) | Implement dark/light theme switching with persistence |
-| 10 | [Real-Time Notifications UI](./intermediate/10-notifications-ui/) | Display push notifications and alerts |
+| 9 | [Theme Switcher App](./intermediate/09-theme-switcher/) | Implement dark/light theme switching with persistence |
+| 10 | [Real-Time Notifications UI](./intermediate/10-real-time-notifications/) | Display push notifications and alerts |
 
 ---
 
@@ -64,14 +64,14 @@ Design and architect complex frontend systems with enterprise considerations.
 |---|---------|-------------|
 | 1 | [Microfrontend Architecture](./advanced/01-microfrontend-architecture/) | Build applications composed of multiple independent modules |
 | 2 | [Real-Time Collaborative Editor](./advanced/02-collaborative-editor/) | Create a Google Docs-like collaborative editing interface |
-| 3 | [Design System & Component Library](./advanced/03-design-system-components/) | Build a comprehensive reusable component library |
+| 3 | [Design System & Component Library](./advanced/03-design-system/) | Build a comprehensive reusable component library |
 | 4 | [Offline-First PWA](./advanced/04-offline-first-pwa/) | Create a Progressive Web App working offline |
-| 5 | [Video Streaming UI](./advanced/05-video-streaming-ui/) | Build a Netflix-like video platform interface |
+| 5 | [Video Streaming UI](./advanced/05-streaming-ui/) | Build a Netflix-like video platform interface |
 | 6 | [Performance-Optimized Large App](./advanced/06-performance-optimized-app/) | Design applications handling millions of data points |
-| 7 | [Accessibility-First UI System](./advanced/07-accessibility-first-ui/) | Build interfaces meeting WCAG 2.1 standards |
+| 7 | [Accessibility-First UI System](./advanced/07-accessibility-ui/) | Build interfaces meeting WCAG 2.1 standards |
 | 8 | [Visual Page Builder](./advanced/08-visual-page-builder/) | Create a drag-and-drop page builder interface |
 | 9 | [Data-Heavy Dashboard](./advanced/09-data-heavy-dashboard/) | Build dashboards with virtualization and optimization |
-| 10 | [Frontend Observability Tool](./advanced/10-frontend-observability/) | Create monitoring and analytics for frontend performance |
+| 10 | [Frontend Observability Tool](./advanced/10-observability-tool/) | Create monitoring and analytics for frontend performance |
 
 ---
 
