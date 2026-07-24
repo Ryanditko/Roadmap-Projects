@@ -26,16 +26,16 @@ Start with foundational system design concepts through focused problems.
 
 | # | Project | Description |
 |---|---------|-------------|
-| 1 | [Design URL Shortener](./beginner/01-design-url-shortener/) | Create a system that shortens long URLs |
-| 2 | [Design Chat System](./beginner/02-design-chat-system/) | Architect a messaging platform for users |
-| 3 | [Design File Storage System](./beginner/03-design-file-storage/) | Build infrastructure for storing and serving files |
-| 4 | [Design Notification System](./beginner/04-design-notification-system/) | Create a system sending notifications to users |
-| 5 | [Design Login System](./beginner/05-design-login-system/) | Architect secure user authentication |
-| 6 | [Design Rate Limiter](./beginner/06-design-rate-limiter/) | Prevent abuse by limiting request rates |
-| 7 | [Design Cache System](./beginner/07-design-cache-system/) | Build an efficient caching layer |
-| 8 | [Design Task Scheduler](./beginner/08-design-task-scheduler/) | Create a system for scheduling and running tasks |
-| 9 | [Design Logging System](./beginner/09-design-logging-system/) | Build infrastructure for application logging |
-| 10 | [Design Metrics System](./beginner/10-design-metrics-system/) | Create systems for collecting and aggregating metrics |
+| 1 | [Design URL Shortener](./beginner/01-url-shortener/) | Create a system that shortens long URLs |
+| 2 | [Design Chat System](./beginner/02-chat-system/) | Architect a messaging platform for users |
+| 3 | [Design File Storage System](./beginner/03-file-storage/) | Build infrastructure for storing and serving files |
+| 4 | [Design Notification System](./beginner/04-notification-system/) | Create a system sending notifications to users |
+| 5 | [Design Login System](./beginner/05-login-system/) | Architect secure user authentication |
+| 6 | [Design Rate Limiter](./beginner/06-rate-limiter/) | Prevent abuse by limiting request rates |
+| 7 | [Design Cache System](./beginner/07-cache-system/) | Build an efficient caching layer |
+| 8 | [Design Task Scheduler](./beginner/08-task-scheduler/) | Create a system for scheduling and running tasks |
+| 9 | [Design Logging System](./beginner/09-logging-system/) | Build infrastructure for application logging |
+| 10 | [Design Metrics System](./beginner/10-metrics-system/) | Create systems for collecting and aggregating metrics |
 
 ---
 
@@ -45,16 +45,16 @@ Integrate multiple concepts and work with real-world design patterns.
 
 | # | Project | Description |
 |---|---------|-------------|
-| 1 | [Design Scalable E-Commerce System](./intermediate/01-design-ecommerce/) | Architecture for online shopping platform |
-| 2 | [Design Video Streaming System](./intermediate/02-design-video-streaming/) | Infrastructure for video delivery at scale |
-| 3 | [Design Ride-Sharing System](./intermediate/03-design-ride-sharing/) | System design for Uber-like platform |
-| 4 | [Design Social Media Feed](./intermediate/04-design-social-feed/) | Architecture for personalized content feeds |
-| 5 | [Design Search Engine](./intermediate/05-design-search-engine/) | System for full-text search and ranking |
-| 6 | [Design Messaging Queue](./intermediate/06-design-messaging-queue/) | Build asynchronous message processing |
-| 7 | [Design API Gateway](./intermediate/07-design-api-gateway/) | Create routing and management layer |
-| 8 | [Design Recommendation System](./intermediate/08-design-recommendations/) | System suggesting relevant content to users |
-| 9 | [Design Analytics System](./intermediate/09-design-analytics-system/) | Infrastructure for data collection and analysis |
-| 10 | [Design CDN](./intermediate/10-design-cdn/) | Content delivery network for global distribution |
+| 1 | [Design Scalable E-Commerce System](./intermediate/01-scalable-ecommerce/) | Architecture for online shopping platform |
+| 2 | [Design Video Streaming System](./intermediate/02-video-streaming/) | Infrastructure for video delivery at scale |
+| 3 | [Design Ride-Sharing System](./intermediate/03-ride-sharing/) | System design for Uber-like platform |
+| 4 | [Design Social Media Feed](./intermediate/04-social-feed/) | Architecture for personalized content feeds |
+| 5 | [Design Search Engine](./intermediate/05-search-engine/) | System for full-text search and ranking |
+| 6 | [Design Messaging Queue](./intermediate/06-messaging-queue/) | Build asynchronous message processing |
+| 7 | [Design API Gateway](./intermediate/07-api-gateway/) | Create routing and management layer |
+| 8 | [Design Recommendation System](./intermediate/08-recommendation-system/) | System suggesting relevant content to users |
+| 9 | [Design Analytics System](./intermediate/09-analytics-system/) | Infrastructure for data collection and analysis |
+| 10 | [Design CDN](./intermediate/10-cdn/) | Content delivery network for global distribution |
 
 ---
 
@@ -64,16 +64,16 @@ Design and architect systems handling global scale with enterprise consideration
 
 | # | Project | Description |
 |---|---------|-------------|
-| 1 | [Design Netflix-Like System](./advanced/01-design-netflix/) | Architecture for a global video streaming platform |
-| 2 | [Design Uber-Like System](./advanced/02-design-uber/) | Real-time matching and dispatch at massive scale |
-| 3 | [Design WhatsApp-Like System](./advanced/03-design-whatsapp/) | Global messaging platform with billions of users |
-| 4 | [Design YouTube System](./advanced/04-design-youtube/) | Video platform supporting billions of views |
-| 5 | [Design Amazon System](./advanced/05-design-amazon/) | E-commerce at global scale with logistics |
-| 6 | [Design Distributed Database](./advanced/06-design-distributed-database/) | Database system spanning multiple regions |
-| 7 | [Design Global Load Balancer](./advanced/07-design-global-load-balancer/) | Geographic routing and traffic management |
-| 8 | [Design Real-Time Collaboration System](./advanced/08-design-collaboration/) | Google Docs-like concurrent editing |
-| 9 | [Design High-Frequency Trading System](./advanced/09-design-hft-system/) | Ultra-low latency trading infrastructure |
-| 10 | [Design Multi-Region Architecture](./advanced/10-design-multi-region/) | System design for global fault tolerance |
+| 1 | [Design Netflix-Like System](./advanced/01-netflix-system/) | Architecture for a global video streaming platform |
+| 2 | [Design Uber-Like System](./advanced/02-uber-system/) | Real-time matching and dispatch at massive scale |
+| 3 | [Design WhatsApp-Like System](./advanced/03-whatsapp-system/) | Global messaging platform with billions of users |
+| 4 | [Design YouTube System](./advanced/04-youtube-system/) | Video platform supporting billions of views |
+| 5 | [Design Amazon System](./advanced/05-amazon-system/) | E-commerce at global scale with logistics |
+| 6 | [Design Distributed Database](./advanced/06-distributed-database/) | Database system spanning multiple regions |
+| 7 | [Design Global Load Balancer](./advanced/07-global-load-balancer/) | Geographic routing and traffic management |
+| 8 | [Design Real-Time Collaboration System](./advanced/08-collaboration-system/) | Google Docs-like concurrent editing |
+| 9 | [Design High-Frequency Trading System](./advanced/09-hft-system/) | Ultra-low latency trading infrastructure |
+| 10 | [Design Multi-Region Architecture](./advanced/10-multi-region-architecture/) | System design for global fault tolerance |
 
 ---
 
