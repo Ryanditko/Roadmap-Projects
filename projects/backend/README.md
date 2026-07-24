@@ -42,15 +42,15 @@ Integrate multiple concepts and work with real-world backend patterns.
 | # | Project | Description |
 |---|---------|-------------|
 | 1 | [E-commerce API with JWT](./intermediate/01-ecommerce-api-jwt/) | Build a product catalog API with JWT authentication |
-| 2 | [Blog Platform with CRUD + Comments](./intermediate/02-blog-platform-crud-comments/) | Create a blog engine with posts, comments, and user management |
+| 2 | [Blog Platform with CRUD + Comments](./intermediate/02-blog-platform-crud/) | Create a blog engine with posts, comments, and user management |
 | 3 | [Rate-Limited API with Redis](./intermediate/03-rate-limited-api-redis/) | Implement API rate limiting using Redis caching |
-| 4 | [Job Queue System](./intermediate/04-job-queue-system/) | Build a background job processor with queues |
+| 4 | [Job Queue System](./intermediate/04-job-queue-rabbitmq/) | Build a background job processor with queues |
 | 5 | [Multi-Tenant SaaS API](./intermediate/05-multi-tenant-saas-api/) | Design an API serving multiple isolated customer tenants |
-| 6 | [API with Caching Layer](./intermediate/06-api-caching-layer/) | Add Redis caching to improve API performance |
-| 7 | [Payment Processing Mock Service](./intermediate/07-payment-processing-mock/) | Create a mock payment gateway with transaction handling |
+| 6 | [API with Caching Layer](./intermediate/06-api-caching-redis/) | Add Redis caching to improve API performance |
+| 7 | [Payment Processing Mock Service](./intermediate/07-payment-mock-service/) | Create a mock payment gateway with transaction handling |
 | 8 | [Notification Service](./intermediate/08-notification-service/) | Build a service sending emails and SMS with retry logic |
 | 9 | [API Gateway](./intermediate/09-api-gateway/) | Implement a gateway for routing and managing APIs |
-| 10 | [GraphQL API with Resolvers](./intermediate/10-graphql-api-resolvers/) | Build a GraphQL server with efficient data fetching |
+| 10 | [GraphQL API with Resolvers](./intermediate/10-graphql-api/) | Build a GraphQL server with efficient data fetching |
 
 ---
 
@@ -60,16 +60,16 @@ Design and architect complex systems with enterprise considerations.
 
 | # | Project | Description |
 |---|---------|-------------|
-| 1 | [Distributed Order Processing System](./advanced/01-distributed-order-processing/) | Design a high-availability order system with multiple services |
+| 1 | [Distributed Order Processing System](./advanced/01-distributed-order-system/) | Design a high-availability order system with multiple services |
 | 2 | [Event-Driven Microservices Architecture](./advanced/02-event-driven-microservices/) | Build a system of services communicating via events |
-| 3 | [High-Scale Authentication Service](./advanced/03-high-scale-auth-oauth2/) | Create an authentication service handling millions of users |
+| 3 | [High-Scale Authentication Service](./advanced/03-oauth2-auth-service/) | Create an authentication service handling millions of users |
 | 4 | [Real-Time Chat Backend](./advanced/04-realtime-chat-websockets/) | Build a chat server with WebSocket connections |
 | 5 | [Feature Flag Service](./advanced/05-feature-flag-service/) | Implement a system for managing feature toggles |
 | 6 | [Observability Platform](./advanced/06-observability-platform/) | Build a logging, metrics, and tracing infrastructure |
 | 7 | [Resilient API with Circuit Breaker](./advanced/07-resilient-api-circuit-breaker/) | Design fault-tolerant APIs with circuit breaker patterns |
 | 8 | [Multi-Region API Design](./advanced/08-multi-region-api/) | Architect APIs deployed across multiple geographic regions |
 | 9 | [Streaming Platform Backend](./advanced/09-streaming-platform-backend/) | Build backend for a Netflix-like video service |
-| 10 | [Idempotent Financial Transactions](./advanced/10-idempotent-transactions/) | Design systems handling financial operations safely |
+| 10 | [Idempotent Financial Transactions](./advanced/10-idempotent-financial-transactions/) | Design systems handling financial operations safely |
 
 ---
 
