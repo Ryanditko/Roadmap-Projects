@@ -46,7 +46,7 @@ By the end, you should be able to:
 ```text
 Storage: users.json  ->  [ { id, name, email, role, createdAt } ]
 
-tool add    --name "Ada" --email ada@x.com [--role user]
+tool add    --name "Ada" --email ada@example.com [--role user]
 tool list   [--role admin] [--sort name]
 tool update --id u_01 --name "Ada L."
 tool delete --id u_01
