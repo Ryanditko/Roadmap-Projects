@@ -1,0 +1,66 @@
+name: "💡 New project idea"
+description: "Suggest a new project to add to one of the six domains."
+title: "[idea] <short project title>"
+labels: ["project-idea", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a project! Ideas should be **guided exercises** — enough to start building, but never a finished solution.
+        Please make sure a similar project does not already exist in the target domain.
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Domain
+      options:
+        - Backend
+        - Frontend
+        - Data Science
+        - Data Engineering
+        - DevOps
+        - System Design
+    validations:
+      required: true
+  - type: dropdown
+    id: level
+    attributes:
+      label: Difficulty level
+      options:
+        - Beginner
+        - Intermediate
+        - Advanced
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Project title
+      placeholder: "e.g. Rate-limited API with Redis"
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: One-paragraph summary
+      description: What does the learner build, and why is it worth building?
+    validations:
+      required: true
+  - type: textarea
+    id: objectives
+    attributes:
+      label: Key learning objectives
+      description: List 3–6 concepts a learner should walk away understanding.
+      placeholder: |
+        - ...
+        - ...
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: This project is not already listed in the target domain/level.
+          required: true
+        - label: It can be described as a guided exercise (no full solution required).
+          required: true

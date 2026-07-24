@@ -1,0 +1,31 @@
+name: "✨ Enhancement"
+description: "Propose an improvement to the repo structure, tooling, or an existing project brief."
+title: "[enhancement] <short description>"
+labels: ["enhancement", "triage"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What could be better?
+      description: Describe the current situation and its limitation.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed improvement
+      description: What would you change, add, or remove?
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - A project brief
+        - A track landing page
+        - Repository docs (README, CONTRIBUTING, etc.)
+        - Tooling / CI / templates
+        - Other
+    validations:
+      required: true
