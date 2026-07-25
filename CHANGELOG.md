@@ -2,6 +2,31 @@
 
 All notable changes to this project will be documented in this file.
 
+## [4.0.0] - 2026-07-25
+
+### Major Changes
+
+- **Every project is now a rich guided exercise**: all 180 project briefs were rewritten from short stubs into a consistent template — Overview, Prerequisites, Learning Objectives, Functional Requirements (or Requirements & Constraints for System Design), Suggested Milestones (or Suggested Approach), Data & Interface Sketch (or Architecture Sketch), Stretch Goals, Definition of Done (or Deliverables), Common Pitfalls, and curated Resources. Briefs describe *what* to build and *why*, with illustrative sketches only — never full solution code.
+- **Fully bilingual**: every brief, track landing page, and top-level document now ships in English (`README.md`) and Brazilian Portuguese (`README.pt-BR.md`), with a language switcher at the top of each.
+
+### Added
+
+- **360 project brief files**: 180 enriched English `README.md` + 180 new `README.pt-BR.md`.
+- **Bilingual docs**: `README.pt-BR.md` (root) and `CONTRIBUTING.pt-BR.md`.
+- **Reusable templates**: `.github/PROJECT_TEMPLATE.md` and `.github/PROJECT_TEMPLATE.pt-BR.md`.
+- **Community health files**: bilingual `CODE_OF_CONDUCT.md` and `SECURITY.md`.
+- **GitHub tooling**: issue forms (new project idea, content issue, enhancement) + config, `PULL_REQUEST_TEMPLATE.md`, and `CODEOWNERS`.
+- **Continuous integration**: `markdown-lint` and offline `link-check` GitHub Actions workflows.
+
+### Fixed
+
+- **76 broken navigation links** across the six track READMEs (link targets now point to the real project folders).
+
+### Changed
+
+- **Root README and 6 track landing pages** rewritten with badges, tables of contents, clearer learning paths, and language switchers.
+- **CONTRIBUTING** aligned with the actual repository structure and the new rich template.
+
 ## [3.0.0] - 2026-04-05
 
 ### Major Changes
