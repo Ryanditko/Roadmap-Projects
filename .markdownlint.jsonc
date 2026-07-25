@@ -9,14 +9,11 @@
   "MD026": false, // trailing punctuation in headings
   "MD036": false, // emphasis used as heading — used intentionally in callouts
   "MD024": { "siblings_only": true }, // repeated headings ok if under different parents
-  "MD029": { "style": "ordered" },
+  "MD029": { "style": "ordered" }
 
-  // --- Relaxed while legacy briefs are being rewritten in the enrichment pass ---
-  // These will be re-tightened in the final polish PR once every file has been
-  // regenerated with clean spacing. Tracked in the CHANGELOG / final-polish task.
-  "MD022": false, // blanks around headings
-  "MD032": false, // blanks around lists
-  "MD040": false, // fenced code language
-  "MD047": false, // single trailing newline
-  "MD009": false  // trailing spaces
+  // Structural rules (MD022 blanks-around-headings, MD032 blanks-around-lists,
+  // MD040 fenced-code-language, MD047 single-trailing-newline, MD009
+  // no-trailing-spaces) are now ENFORCED again: every brief has been rewritten
+  // with clean spacing, so the temporary relaxation from the enrichment pass is
+  // no longer needed.
 }
