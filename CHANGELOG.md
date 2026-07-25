@@ -46,7 +46,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 
 - **Main Banner Image**: `projects/images/banner-main.png`
-- **Domain Banners**: 
+- **Domain Banners**:
   - `projects/images/banner-backend.png`
   - `projects/images/banner-frontend.png`
   - `projects/images/banner-data-science.png`
@@ -71,7 +71,7 @@ All notable changes to this project will be documented in this file.
 
 ### New Repository Structure
 
-```
+```text
 projects-library/
 ├── projects/
 │   ├── backend/
@@ -109,11 +109,13 @@ projects-library/
 ### Renamed
 
 **Main Folders:**
+
 - `iniciante/` → `beginner/`
 - `intermediario/` → `intermediate/`
 - `avancado/` → `advanced/`
 
 **Beginner Projects:**
+
 - `gerador-de-senha/` → `password-generator/`
 - `lista-de-tarefas/` → `todo-list/`
 - `calculadora-simples/` → `simple-calculator/`
@@ -131,6 +133,7 @@ projects-library/
 - `checklist-compras/` → `shopping-checklist/`
 
 **Intermediate Projects:**
+
 - `notas-markdown/` → `markdown-notes/`
 - `encurtador-url/` → `url-shortener/`
 - `dashboard-gastos/` → `expenses-dashboard/`
@@ -143,6 +146,7 @@ projects-library/
 - `gerador-relatorios-pdf/` → `pdf-report-generator/`
 
 **Advanced Projects:**
+
 - `ecommerce-completo/` → `ecommerce-platform/`
 - `rede-social/` → `social-network/`
 - `gestao-financeira/` → `financial-management/`
@@ -157,6 +161,7 @@ projects-library/
 ### Project Structure
 
 Each project now contains:
+
 - **Description**: Clear, concise project overview
 - **Features**: Core functionality requirements
 - **Learning Objectives**: Key concepts and skills to develop
